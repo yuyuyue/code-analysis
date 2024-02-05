@@ -1,0 +1,31 @@
+{
+  "name": "ast-learn",
+  "version": "1.0.0",
+  "description": "Frontend dependency Governance",
+  "main": "index.js",
+  "bin": {
+    "analysis": "./lib/cli.ts"
+  },
+  "scripts": {},
+  "author": "yanboyi_i@github.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/fs-extra": "^11.0.4",
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.11.5",
+    "@types/uuid": "^9.0.8",
+    "@vue/compiler-core": "^3.4.15",
+    "@vue/compiler-dom": "^3.4.15",
+    "bcrypt": "^5.1.1",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "simple-git": "^3.22.0",
+    "tapable": "^2.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "uuid": "^9.0.1"
+  }
+}
